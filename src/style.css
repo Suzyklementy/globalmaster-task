@@ -1,0 +1,157 @@
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.container
+{
+    margin: 10px 25px;
+}
+
+.baner
+{
+    height: 450px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5) url("./images/baner.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-blend-mode:  darken;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.baner-header
+{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 15px;
+}
+
+.baner-text
+{
+    color: #dedede;
+    width: 65%;
+    font-size: 22px;
+    text-align: center;
+    margin: 15px;
+}
+
+.baner-button
+{
+    width: 175px;
+    height: 35px;
+    color: #fff;
+    background-color: rgba(0, 123, 255, 0.70);
+    border: 0;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.3s;
+}
+
+.baner-button:hover
+{
+    width: 175px;
+    height: 40px;
+    background-color: rgba(0, 123, 255, 0.85);
+    margin: 17.5px;
+}
+
+.main-content
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header 
+{
+    width: 1500px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.header-title
+{
+    color: #b5b5b5;
+    font-weight: normal;
+}
+
+.header-title--blue
+{
+    color: rgba(0, 123, 255);
+    text-transform: uppercase;
+}
+
+.header-link
+{
+    color: #b5b5b5;
+    text-decoration: none;
+}
+
+.header-link:hover
+{
+    color: #a2a2a2;
+}
+
+.categories
+{
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}    
+
+.category
+{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 123, 255, 0.20);  
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.category-image
+{
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    filter: grayscale(1);
+    transition: 0.5s;
+    margin: 15px;
+}
+
+.category-image:hover
+{
+    width: 160px;
+    height: 160px;
+    filter: none;
+    margin: 20px;
+}
+
+.category-name
+{
+    color: #565656;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px;
+}
