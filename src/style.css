@@ -9,7 +9,7 @@
 html
 {
     font-size: 16px;
-    font-family: Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .container
@@ -93,19 +93,22 @@ html
 
 .header-title--blue
 {
-    color: rgba(0, 123, 255);
+    color: rgb(0, 123, 255);
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 .header-link
 {
     color: #b5b5b5;
     text-decoration: none;
+    font-weight: 500;
+    transition: 0.5s;
 }
 
 .header-link:hover
 {
-    color: #a2a2a2;
+    color: rgb(0, 123, 255);
 }
 
 .categories
@@ -157,9 +160,9 @@ html
 
 .category-name
 {
-    font-size: 15px;
+    font-size: 14px;
     color: #565656;
-    font-weight: bold;
+    font-weight: 650;
     text-transform: uppercase;
     text-align: center;
     margin: 15px;
